@@ -208,20 +208,6 @@ The 2027 forecast extends the analysis from historical reporting into forward-lo
 
 The project demonstrates how Power Query, Power BI and DAX can be used to transform operational data into structured business insights and support data-driven supply chain and commercial decisions.
 
-## Limitations & Future Development
-
-The dataset is synthetic and anonymised. The underlying architecture, relationships, business rules and analytical patterns are based on realistic business processes.
-
-The current forecast-to-stock comparison uses the current inventory position as a baseline. A future version could incorporate projected stock movements, supplier lead times, safety stock, reorder points and purchase order timing to calculate a more detailed purchasing plan.
-
-Future development could also include:
-- Supplier risk and lead-time analysis
-- Safety stock calculations
-- Reorder point modelling
-- Supplier lead-time variability
-- Scenario-based demand forecasting
-- Automated purchasing recommendations
-
 
 
 

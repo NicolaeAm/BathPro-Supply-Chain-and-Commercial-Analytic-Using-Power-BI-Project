@@ -4,9 +4,9 @@
 
 ## Project Overview
 
-This project is an end-to-end Supply Chain and Commercial Analytics solution built using Excel and Microsoft Power BI.
+End-to-end data architecture and Power BI dashboard for BathPro, a European bathroom-fittings retailer sourcing from  suppliers across Poland, Spain, Switzerland, Germany, and Italy.
 
-The project models a bathroom-products business across purchasing, supplier performance, inventory, sales, profitability and demand forecasting. The objective is to connect operational data from different business processes and turn it into a management reporting and decision-support solution.
+BathPro's supplier network, product catalogue structure, and operating rules (minimum order values, delivery lead times, return policy, channel mix) reflect the company's real business model. Purchasing and sales transaction data is modeled — generated to follow these same business rules and realistic seasonal demand patterns — so the full analytics pipeline could be built, tested, and demonstrated without using commercially sensitive transaction records.
 
 The project covers:
 
@@ -97,6 +97,7 @@ The forecast uses historical sales behaviour and monthly seasonality to produce 
 ## Data Architecture
 
 The Power BI model connects several business areas through common business keys.
+
 
 ### Core Tables
 

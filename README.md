@@ -4,7 +4,7 @@
 
 ## Project Overview
 
-End-to-end data architecture and Power BI dashboard for BathPro, a European bathroom-fittings retailer sourcing from suppliers across Poland, Spain, Switzerland, Germany, and Italy.
+End-to-end data architecture and Power BI dashboard for BathPro, a European bathroom-fittings retailer sourcing from suppliers across Poland, Spain, Switzerland, Germany and Italy.
 
 BathPro's supplier network, product catalogue structure, and operating rules (minimum order values, delivery lead times, return policy, channel mix) reflect the company's real business model. Purchasing and sales transaction data is modeled — generated to follow these same business rules and realistic seasonal demand patterns — so the full analytics pipeline could be built, tested, and demonstrated without using commercially sensitive transaction records.
 
@@ -198,7 +198,29 @@ Cost of Goods Sold calculates the total cost of products sold by multiplying the
 - Comparing forecast demand with the current stock position identified potential surplus and shortfall categories.
 - The analysis provides a basis for prioritising future purchasing decisions.
 
+## Conclusion
 
+This project demonstrates an end-to-end approach to analysing purchasing, supplier performance, sales, inventory, profitability and future demand within a single business model.
+
+The analysis connects operational data across the supply chain rather than treating each area independently. Purchasing and supplier performance provide context for inventory availability, while sales and demand patterns help identify future stock requirements.
+
+The 2027 forecast extends the analysis from historical reporting into forward-looking planning. Comparing forecast demand with the current inventory position provides an initial view of where future purchasing attention may be required.
+
+The project demonstrates how Power Query, Power BI and DAX can be used to transform operational data into structured business insights and support data-driven supply chain and commercial decisions.
+
+## Limitations & Future Development
+
+The dataset is synthetic and anonymised. The underlying architecture, relationships, business rules and analytical patterns are based on realistic business processes.
+
+The current forecast-to-stock comparison uses the current inventory position as a baseline. A future version could incorporate projected stock movements, supplier lead times, safety stock, reorder points and purchase order timing to calculate a more detailed purchasing plan.
+
+Future development could also include:
+- Supplier risk and lead-time analysis
+- Safety stock calculations
+- Reorder point modelling
+- Supplier lead-time variability
+- Scenario-based demand forecasting
+- Automated purchasing recommendations
 
 
 

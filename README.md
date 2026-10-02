@@ -1,3 +1,5 @@
+![BathPro Logo](https://)
+
 # BathPro — Supply Chain & Commercial Analytics
 
 ## Project Overview

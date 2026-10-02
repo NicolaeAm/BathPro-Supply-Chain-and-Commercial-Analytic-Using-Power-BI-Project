@@ -165,7 +165,7 @@ Cost of Goods Sold calculates the total cost of products sold by multiplying the
 ## Dashboards & Key Business Findings
 
 ### 1. Purchasing & Supplier Dashboard
-![Purchasing and Suppling](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Purchasesing%20and%20Suppling.png)
+![Purchasing and Suppling](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Purchasesing%20and%20Suppling.png)
 ### Purchasing & Supplier Performance
 - Purchase spend was €6.28M across 1,728 purchase orders.
 - Overall on-time delivery performance was 70%.
@@ -174,7 +174,7 @@ Cost of Goods Sold calculates the total cost of products sold by multiplying the
 - This highlights opportunities to monitor supplier reliability and delivery consistency.
 
 ### 2. Sales & Revenue 
-![Sales and Revenue](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Sales%20%26%20Revenue%20.png)
+![Sales and Revenue](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Sales%20%26%20Revenue%20.png)
 ### Sales & Revenue
 - Revenue excluding VAT was €5.65M.
 - Gross profit was €2.26M, representing a 40% gross margin.
@@ -183,7 +183,7 @@ Cost of Goods Sold calculates the total cost of products sold by multiplying the
 - Returns represented a small proportion of overall sales.
   
 ### 3. Inventory Management
-![Inventory](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Inventory%20.png)
+![Inventory](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Inventory%20.png)
 ### Inventory
 - Current stock position was approximately 31.9K units.
 - Inventory value at cost was approximately €5.52M.
@@ -191,7 +191,7 @@ Cost of Goods Sold calculates the total cost of products sold by multiplying the
 - Some categories held substantially more stock than their forecast demand, while others showed potential shortfalls.
 
 ### 4. 2027 Demand Forecast
-![2027 Sales Forecast](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Sales%20Forecast-2027.png)
+![2027 Sales Forecast](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Sales%20Forecast-2027.png)
 ### 2027 Forecast 
 - Forecast 2027 demand was approximately 11K units and €2.51M in revenue.
 - Historical seasonality was incorporated into the category-level forecast.

@@ -208,7 +208,9 @@ The 2027 forecast extends the analysis from historical reporting into forward-lo
 
 The project demonstrates how Power Query, Power BI and DAX can be used to transform operational data into structured business insights and support data-driven supply chain and commercial decisions.
 
+## Autor - Nicolae 
 
+This project is part of my data analytics portfolio, showcasing Power Query, Power BI and DAX skills relevant to data analyst roles.
 
 
 

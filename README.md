@@ -99,19 +99,56 @@ The forecast uses historical sales behaviour and monthly seasonality to produce 
 The Power BI data model shema tables and column relationship.
 ![Data_Model_Shema](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/BathPro_Power_BI_Shema.png)
 
-### Core Tables
-
-- `PRODUCTS`
-- `Suppliers`
-- `tblPurchases`
-- `tblSales`
-- `qryReceipts`
-- `qryInventoryTransactions`
-- `DateTable`
-
 The **Internal SKU** acts as the common product identifier across purchasing, sales, products and inventory.
 
 Supplier information is connected through **Supplier ID**.
 
 The Date Table provides the common time dimension used across purchasing, sales and inventory analysis.
+
+
+## Dashboards & Key Business Findings
+
+### 1. Purchasing & Supplier Dashboard
+![Purchasing and Suppling](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Purchasesing%20and%20Suppling.png)
+
+### Purchasing & Supplier Performance
+- Purchase spend was €6.28M across 1,728 purchase orders.
+- Overall on-time delivery performance was 70%.
+- Average delay for late deliveries was 7 days.
+- Supplier performance varied across the supplier base.
+- This highlights opportunities to monitor supplier reliability and delivery consistency.
+
+
+### Sales & Revenue
+- Revenue excluding VAT was €5.65M.
+- Gross profit was €2.26M, representing a 40% gross margin.
+- Sales showed clear seasonal variation, with stronger activity during April, May, September and October.
+- Square POS represented the largest sales channel in the synthetic dataset.
+- Returns represented a small proportion of overall sales.
+
+### Inventory
+- Current stock position was approximately 31.9K units.
+- Inventory value at cost was approximately €5.52M.
+- Inventory levels varied significantly by product category.
+- Some categories held substantially more stock than their forecast demand, while others showed potential shortfalls.
+
+### 2027 Forecast & Purchasing
+- Forecast 2027 demand was approximately 11K units and €2.51M in revenue.
+- Historical seasonality was incorporated into the category-level forecast.
+- Comparing forecast demand with the current stock position identified potential surplus and shortfall categories.
+- The analysis provides a basis for prioritising future purchasing decisions.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

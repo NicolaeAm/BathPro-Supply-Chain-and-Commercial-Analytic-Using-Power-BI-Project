@@ -183,7 +183,7 @@ Cost of Goods Sold calculates the total cost of products sold by multiplying the
 - Returns represented a small proportion of overall sales.
   
 ### 3. Inventory Management
-[Inventory](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Inventory%20.png)
+![Inventory](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Inventory%20.png)
 ### Inventory
 - Current stock position was approximately 31.9K units.
 - Inventory value at cost was approximately €5.52M.

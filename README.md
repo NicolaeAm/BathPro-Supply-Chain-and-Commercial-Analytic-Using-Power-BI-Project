@@ -120,7 +120,7 @@ Cost of Goods Sold calculates the total cost of products sold by multiplying the
 Business focus: Use supplier delivery performance alongside purchase spend and lead times when reviewing suppliers, prioritising improvement discussions and adjusting purchasing timelines for less reliable suppliers.
 
 ### 2. Sales & Revenue 
-![Sales and Revenue](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Sales%20%26%20Revenue%20.png)
+![Sales and Revenue](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Sales%20%26%20Revenue.png)
 ### Sales & Revenue
 - Revenue excluding VAT reached €5.65M, with €2.26M gross profit and a 40% gross margin.
 - Revenue increased 8.2% in 2025, while units sold increased 6.6%, indicating slower growth following the stronger expansion in 2024.
@@ -131,7 +131,7 @@ Business focus: Use supplier delivery performance alongside purchase spend and l
 Business focus: Monitor revenue, margin, product mix and sales channels together to support profitable growth.
   
 ### 3. Inventory Management
-![Inventory](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Inventory%20.png)
+![Inventory](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Inventory.png)
 ### Inventory
 - Current stock was approximately 31.9K units, with an inventory value of €5.52M at cost.
 - Stock levels varied significantly by product category.
@@ -140,7 +140,7 @@ Business focus: Monitor revenue, margin, product mix and sales channels together
 Business focus: Align replenishment decisions with demand and current stock position to reduce excess inventory while protecting product availability.
 
 ### 4. 2027 Demand & Purchasing Scenario
-![2027 Demand Scenario](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Sales%20Forecast-2027.png)
+![2027 Demand Scenario](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Demand%20%26%20Purchasing%20Scenario.png)
 ### 2027 Forecast 
 - The 2027 baseline scenario indicates approximately 11K units and €2.51M revenue.
 - The scenario preserves historical monthly seasonality and applies an 8% annual growth assumption, based on the latest observed revenue growth rate.

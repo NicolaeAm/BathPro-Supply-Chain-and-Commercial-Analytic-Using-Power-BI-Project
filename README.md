@@ -1,4 +1,4 @@
-![BathPro Logo](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/BatPro_logo.png)
+![BathPro Logo](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/BathPro_logo.png)
 
 # BathPro — Supply Chain & Commercial Analytics
 

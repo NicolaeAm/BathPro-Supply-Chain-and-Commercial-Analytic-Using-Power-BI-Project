@@ -98,7 +98,7 @@ The forecast uses historical sales behaviour and monthly seasonality to produce 
 
 The Power BI data model schema shows the main tables and relationships.
 
-![Data_Model_Shema](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/BathPro_Power_BI_Shema.png)
+![Data_Model_Shema](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/BathPro_Power_BI_Schema.png)
 
 The **Internal SKU** acts as the common product identifier across purchasing, sales, products and inventory.
 Supplier information is connected through **Supplier ID**.

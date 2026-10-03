@@ -4,12 +4,11 @@
 
 ## Project Overview
 
-End-to-end data architecture and Power BI dashboard for BathPro, a European bathroom-fittings retailer sourcing from suppliers across Poland, Spain, Switzerland, Germany and Italy.
-
-BathPro's supplier network, product catalogue structure, and operating rules (minimum order values, delivery lead times, return policy, channel mix) reflect the company's real business model. Purchasing and sales transaction data is modeled — generated to follow these same business rules and realistic seasonal demand patterns — so the full analytics pipeline could be built, tested, and demonstrated without using commercially sensitive transaction records.
+BathPro is a bathroom-products retailer and supplier, sourcing from a network of European manufacturers. The catalogue spans the full bathroom renovation basket — bathtubs, shower enclosures and screens, walk-in showers, trays, vanity units, brassware, toilets, and accessories.
+BathPro sells across four points of sale: an in-person Showroom, an online store (Website), in-store POS terminals, and cash transactions.
+This project builds the end-to-end analytics layer behind that operation — purchasing, supplier performance, inventory, sales, profitability, and demand planning — in Power BI. Purchasing and sales transaction data are modeled: generated to follow BathPro's real supplier terms, product structure, and realistic seasonal demand patterns, so the complete analytical workflow could be built and demonstrated without using commercially sensitive transaction records.
 
 The project covers:
-
 - Product and supplier data
 - Purchasing and supplier performance
 - Inventory movements and stock balances
@@ -20,79 +19,26 @@ The project covers:
 - Forecast demand versus inventory position
 - Purchasing requirements analysis
 
----
-
-## Business Context
-
-The business operates in the bathroom-products sector, selling products such as toilets, vanity units, shower enclosures, shower screens, trays, taps, washbasins and accessories.
-
-The business purchases products from multiple European suppliers and sells through several sales channels.
-
 The analytical challenge is to understand how purchasing decisions, supplier performance, inventory levels and customer demand interact.
-
 Management needs to answer questions such as:
 
-## Business Questions
+## Key Business Questions
 
-- How much are we spending on purchasing?
 - Which suppliers account for the largest share of purchasing spend?
 - Which suppliers consistently meet expected delivery dates?
 - How much inventory is currently tied up in stock?
 - Which product categories generate the most revenue?
 - Which categories contribute most to gross profit?
 - What seasonal patterns exist in customer demand?
-- How might demand develop during 2027?
-- Does the current inventory position provide sufficient coverage against forecast demand?
-- Where may additional purchasing requirements arise?
-
-### Purchasing & Supplier Performance
-
-- What is total purchasing spend?
-- How is purchasing spend distributed across suppliers?
-- Which suppliers have the highest purchasing volumes?
-- What is the supplier delivery performance?
-- Which suppliers have the highest average delivery delays?
-- How much purchasing spend is associated with suppliers with weaker delivery performance?
-
-### Sales & Revenue
-
-- How does sales activity change over time?
-- Which product categories generate the most revenue?
-- Which sales channels contribute most to revenue?
-- What seasonal patterns can be identified?
 - How has sales performance changed between years?
-- Which products and categories contribute most to commercial performance?
-
-### Inventory Management
-
-- How many units are currently held in inventory?
-- What is the value of inventory at cost?
-- Which product categories hold the largest stock positions?
-- How does inventory move over time?
 - How much stock has been damaged?
-- Which products may require closer inventory monitoring?
-
-### Profitability
-
-- What is total revenue excluding VAT?
-- What is the cost of goods sold?
-- What is gross profit?
-- What is gross margin?
 - How does profitability vary across product categories?
-- How does landed cost affect commercial profitability?
-
-### 2027 Demand Forecast
-
 - What historical monthly sales patterns exist?
-- Which months show stronger or weaker demand?
-- What seasonal patterns can be identified?
 - What could 2027 demand look like by product category?
 - How does forecast demand compare with the existing inventory position?
 - Where could future purchasing requirements emerge?
 
 The forecast uses historical sales behaviour and monthly seasonality to produce a 2027 category-level demand forecast.
-
----
 
 ## Data Architecture
 
@@ -165,52 +111,61 @@ Cost of Goods Sold calculates the total cost of products sold by multiplying the
 ## Dashboards & Key Business Findings
 
 ### 1. Purchasing & Supplier Dashboard
-![Purchasing and Suppling](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Purchasesing%20and%20Suppling.png)
+![Purchasing and Supplying](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Purchasesing%20and%20Suppling.png)
 ### Purchasing & Supplier Performance
-- Purchase spend was €6.28M across 1,728 purchase orders.
-- Overall on-time delivery performance was 70%.
-- Average delay for late deliveries was 7 days.
-- Supplier performance varied across the supplier base.
-- This highlights opportunities to monitor supplier reliability and delivery consistency.
+- Purchase spend reached €6.28M across 1,728 purchase orders.
+- Overall on-time delivery was 70%, with late deliveries averaging 7 days.
+- Supplier performance varied across the supplier base, creating opportunities to improve delivery reliability and purchasing planning.
+
+Business focus: Use supplier delivery performance alongside purchase spend and lead times when reviewing suppliers, prioritising improvement discussions and adjusting purchasing timelines for less reliable suppliers.
 
 ### 2. Sales & Revenue 
 ![Sales and Revenue](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Sales%20%26%20Revenue%20.png)
 ### Sales & Revenue
-- Revenue excluding VAT was €5.65M.
-- Gross profit was €2.26M, representing a 40% gross margin.
-- Sales showed clear seasonal variation, with stronger activity during April, May, September and October.
-- Square POS represented the largest sales channel in the synthetic dataset.
+- Revenue excluding VAT reached €5.65M, with €2.26M gross profit and a 40% gross margin.
+- Revenue increased 8.2% in 2025, while units sold increased 6.6%, indicating slower growth following the stronger expansion in 2024.
+- Demand showed clear seasonality, with stronger sales activity in April, May, September and October.
+- Square POS was the largest sales channel in the dataset.
 - Returns represented a small proportion of overall sales.
+
+Business focus: Monitor revenue, margin, product mix and sales channels together to support profitable growth.
   
 ### 3. Inventory Management
 ![Inventory](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Inventory%20.png)
 ### Inventory
-- Current stock position was approximately 31.9K units.
-- Inventory value at cost was approximately €5.52M.
-- Inventory levels varied significantly by product category.
-- Some categories held substantially more stock than their forecast demand, while others showed potential shortfalls.
+- Current stock was approximately 31.9K units, with an inventory value of €5.52M at cost.
+- Stock levels varied significantly by product category.
+- Some categories showed potential surplus while others showed potential shortfalls against expected demand.
 
-### 4. 2027 Demand Forecast
-![2027 Sales Forecast](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Sales%20Forecast-2027.png)
+Business focus: Align replenishment decisions with demand and current stock position to reduce excess inventory while protecting product availability.
+
+### 4. 2027 Demand & Purchasing Scenario
+![2027 Demand Scenario](https://github.com/NicolaeAm/BathPro-Supply-Chain-and-Commercial-Analytic-Using-Power-BI-Project/blob/main/Power%20Bi%20Dashboards/Sales%20Forecast-2027.png)
 ### 2027 Forecast 
-- Forecast 2027 demand was approximately 11K units and €2.51M in revenue.
-- Historical seasonality was incorporated into the category-level forecast.
-- Comparing forecast demand with the current stock position identified potential surplus and shortfall categories.
-- The analysis provides a basis for prioritising future purchasing decisions.
+- The 2027 baseline scenario indicates approximately 11K units and €2.51M revenue.
+- The scenario preserves historical monthly seasonality and applies an 8% annual growth assumption, based on the latest observed revenue growth rate.
+- Comparing projected demand with current stock highlights potential surplus and shortfall categories.
+- The analysis provides a basis for prioritising future purchasing requirements.
+
+Business focus: Use demand projections together with current inventory to support forward purchasing decisions rather than relying only on historical stock levels.
 
 ## Conclusion
+This project demonstrates an end-to-end approach to supply chain and commercial analytics, connecting purchasing, supplier performance, inventory, sales, profitability and demand planning within a single Power BI model.
 
-This project demonstrates an end-to-end approach to analysing purchasing, supplier performance, sales, inventory, profitability and future demand within a single business model.
+The analysis moves beyond descriptive reporting by linking supplier reliability to inventory risk, sales seasonality to demand planning, and projected demand to purchasing requirements.
 
-The analysis connects operational data across the supply chain rather than treating each area independently. Purchasing and supplier performance provide context for inventory availability, while sales and demand patterns help identify future stock requirements.
+The 2027 scenario provides a practical planning framework for identifying potential stock gaps and surplus positions, helping focus purchasing decisions where they are most relevant.
 
-The 2027 forecast extends the analysis from historical reporting into forward-looking planning. Comparing forecast demand with the current inventory position provides an initial view of where future purchasing attention may be required.
+Overall, the project demonstrates how Power Query, Power BI and DAX can transform operational data into structured business insights and support commercial, inventory and supply chain decision-making.
 
-The project demonstrates how Power Query, Power BI and DAX can be used to transform operational data into structured business insights and support data-driven supply chain and commercial decisions.
+## Tools & Technologies
+Power BI — Data modelling, DAX, dashboards and visual analytics
+Power Query — Data transformation, cleaning and preparation
+DAX — KPI calculations, profitability, inventory and demand analysis
+Excel — Source data preparation and validation
 
-## Autor - Nicolae 
-
-This project is part of my data analytics portfolio, showcasing Power Query, Power BI and DAX skills relevant to data analyst roles.
+## Author - Nicolae 
+This project is part of my data analytics portfolio, demonstrating practical experience with Power Query, Power BI, DAX, supply chain analytics, commercial analysis and business-focused reporting. 
 
 
 
